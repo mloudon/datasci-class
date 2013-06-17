@@ -1,0 +1,6 @@
+ssh -o "ServerAliveInterval 10" -i /home/mel/.ssh/melkey.pem hadoop@ec2-54-234-205-186.compute-1.amazonaws.com
+
+hadoop dfs -mkdir /user/hadoop
+
+ssh -L 9100:localhost:9100 -L 9101:localhost:9101  -i /home/mel/.ssh/melkey.pem hadoop@ec2-54-234-205-186.compute-1.amazonaws.com
+

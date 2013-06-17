@@ -1,3 +1,7 @@
 
 syntax: regexp
 ^datasci_course_materials$
+syntax: regexp
+^assignment5_kaggle/data$
+syntax: regexp
+^assignment5_kaggle/kaggle$
